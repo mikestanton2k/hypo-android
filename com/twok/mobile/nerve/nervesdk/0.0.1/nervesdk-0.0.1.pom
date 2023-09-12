@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.twok.mobile.nerve</groupId>
+  <artifactId>nervesdk</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.amplitude</groupId>
+      <artifactId>android-sdk</artifactId>
+      <version>3.35.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>4.3.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.leanplum</groupId>
+      <artifactId>leanplum-core</artifactId>
+      <version>4.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.adjust.sdk</groupId>
+      <artifactId>adjust-android</artifactId>
+      <version>4.33.5</version>
+    </dependency>
+    <dependency>
+      <groupId>com.android.installreferrer</groupId>
+      <artifactId>installreferrer</artifactId>
+      <version>2.2</version>
+    </dependency>
+  </dependencies>
+</project>
